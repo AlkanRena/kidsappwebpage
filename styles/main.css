@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+}
+
+header {
+    align-self: center;
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+
+main{
+    align-self: center;
+    background-color: blue;
+    width: 100vw;
+
+    height: 80vh;
+}
+
+footer {
+    align-self: center;
+    background-color: yellow;
+    width: 100vw;
+
+
+    height: 10vh;
+}
+
